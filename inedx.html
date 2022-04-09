@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="filter-range col-3">
+                <h3 class="filter-range__title">Title</h3>
+                <div class="filter-range__values">
+                    <input class="filter-range__value" type="text" data-type-input="left"  data-value-min="56" value="56">
+                    <div class="dash"></div>
+                    <input class="filter-range__value" type="text" data-type-input="right" data-value-max="1234" value="1234">
+                </div>
+                <div class="filter-range__slider">
+                    <div class="filter-range__slider-toggle" data-type-toggle="left"></div>
+                    <div class="filter-range__slider-toggle" data-type-toggle="right"></div>
+                    <div class="filter-range__slider-scale"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
